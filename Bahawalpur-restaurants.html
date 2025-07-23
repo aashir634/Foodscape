@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bahawalpur Restaurants</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      text-align: center;
+      color: #e74c3c;
+    }
+
+    .restaurant-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .restaurant-item {
+      display: flex;
+      align-items: center;
+      background: white;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .restaurant-item:hover {
+      transform: scale(1.01);
+    }
+
+    .restaurant-img {
+      width: 80px;
+      height: 80px;
+      margin-right: 15px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .restaurant-info h2 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .restaurant-info p {
+      margin: 3px 0 0;
+      font-size: 14px;
+      color: #888;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Restaurants in Bahawalpur</h1>
+
+  <ul class="restaurant-list">
+    <li class="restaurant-item">
+      <a href="salt-n-pepper.html">
+        <img src="images/salt.jpg" alt="Salt n Pepper" class="restaurant-img">
+      </a>
+      <div class="restaurant-info">
+        <a href="salt-n-pepper.html">
+          <h2>Salt'n Pepper</h2>
+          <p>Junk food • Desi Cuisine</p>
+        </a>
+      </div>
+    </li>
+
+    <li class="restaurant-item">
+      <a href="khairpuri restaurant.html">
+        <img src="images/pizza.jpg" alt="khairpuri restaurant" class="restaurant-img">
+      </a>
+      <div class="restaurant-info">
+        <a href="khairpuri restaurant.html">
+          <h2>Khairpuri restaurant</h2>
+          <p>Desi Cusine • Family style</p>
+        </a>
+      </div>
+    </li>
+  </ul>
+
+</body>
+</html>
