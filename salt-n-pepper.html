@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Details</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      text-align: center;
+    }
+    .header img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    .info-section {
+      margin-top: 30px;
+    }
+    .info-section h2 {
+      margin-bottom: 10px;
+      color: #d35400;
+    }
+    .gallery img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 5px;
+    }
+    .rating-stars {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .rating-stars label {
+      margin-right: 10px;
+      width: 120px;
+    }
+    select {
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .comments {
+      margin-top: 20px;
+    }
+    .comments textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .comments button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .comments-display {
+      margin-top: 20px;
+    }
+    .comments-display p {
+      background: #ecf0f1;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Salt’n Pepper – Bahawalpur</h1>
+      <img src="impsaltn.jpg" alt="Restaurant Image">
+    </div><div class="info-section">
+  <h2>📍 Location</h2>
+  <p> D.C Chowk, opposite commissioner house, Bahawalpur 63100 </p>
+  <p><span class="label">Phone:</span> <a href="tel:+92315 2740271">+92 315 2740271</a></p>
+  <a href="https://goo.gl/maps/..." target="_blank">Open in Google Maps</a>
+</div>
+
+<div class="info-section">
+  <h2>🌐 Website</h2>
+  <a href="https://saltnpepper.com.pk" target="_blank">Official Website</a>
+</div>
+
+<div class="info-section">
+  <h2>🍽️ Menu Pictures</h2>
+  <div class="gallery">
+    <img src="img/snp-menu1.jpg" alt="Menu 1">
+    <img src="FBmenu2.jpg" alt="Menu 2">
+  </div>
+</div>
+
+<div class="info-section">
+  <h2>🏞️ Ambience Gallery</h2>
+  <div class="gallery">
+    <img src="img/snp1.jpg" alt="Ambience 1">
+    <img src="img/snp2.jpg" alt="Ambience 2">
+  </div>
+</div>
+
+<div class="info-section">
+  <h2>⭐ Rate This Place</h2>
+  <div class="rating-stars">
+    <label>Ambience:</label>
+    <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+  </div>
+  <div class="rating-stars">
+    <label>Food:</label>
+    <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+  </div>
+  <div class="rating-stars">
+    <label>Prices:</label>
+    <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+  </div>
+  <div class="rating-stars">
+    <label>Staff:</label>
+    <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+  </div>
+</div>
+
+<div class="comments">
+  <h2>💬 Public Reviews</h2>
+  <textarea rows="4" placeholder="Write your review here..."></textarea>
+  <br>
+  <button onclick="alert('Thanks for your feedback!')">Submit Review</button>
+</div>
+
+<div class="comments-display">
+  <h3>Recent Reviews</h3>
+  </div>
+</body>
+</html>
